@@ -42,8 +42,9 @@ end
 def reduce_to_total(source_array)
   i = 0
   while i < source_array.length do
-    new_value = source_array[i]
+    new_value = source_array[0]
+    new_value_2 = new_value += source_array[i]
     i += 1
   end
-  return new_value
+  return new_value_2
 end
