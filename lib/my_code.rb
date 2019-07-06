@@ -5,5 +5,5 @@ def map_to_negativize(source_array)
     new_array << source_array[i] * -1
     i += 1
   end
-  return new_arra
+  return new_array
 end
