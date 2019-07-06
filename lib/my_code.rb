@@ -49,9 +49,8 @@ end
 
 def reduce_to_all_true(source_array)
   i = 0
-  new_value = source_array[i]
   while i < source_array.length do
-    if new_value == source_array[i]
+    if source_array[i]
       return true
     end
     i += 1
